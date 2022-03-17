@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favico.ico" type="image/x-icon">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+            
+        }
+        header {
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        nav {
+            background-color: rgb(148, 142, 142);
+            padding: 3px;
+            box-shadow: 1px 1px 1px 1px rgba(37, 36, 36, 0.575);
+        
+        }
+        nav > a {
+            text-decoration: none;
+            color: aliceblue;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        main {
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 1px 1px 1px 1px rgba(37, 36, 36, 0.575);
+            border-radius: 10px;
+
+        }
+        article {
+            background-color: lightgrey;
+            padding: 5px;
+        }
+        article > aside {
+            background-color: rgb(148, 142, 142);
+            box-shadow: 1px 1px 1px 1px rgba(46, 43, 43, 0.575);
+
+        }
+        footer {
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+            padding: 3px;
+            margin: 0px;
+            box-shadow: 1px 1px 1px 1px rgba(37, 36, 36, 0.575);
+
+        } 
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+            Meu site
+        </h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+         </nav>
+    </header>
+    <main>
+        <section id="assunto">
+        </section>
+            
+        <section id="noticias">
+            <article>
+                <h2>
+                    Notícias sobre o Brasil
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet voluptate possimus suscipit delectus nostrum iure eius optio maiores itaque voluptatum eligendi similique natus, cupiditate blanditiis unde harum dignissimos mollitia vel.
+                </p>
+                <aside>
+                    <p>
+                        Artigo escrito por Mafran Vieira
+                    </p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>
+            Desenvolvido pelo Cursoemvideo
+        </p>
+    </footer>
+</body>
+</html>
