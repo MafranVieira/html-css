@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../favico.ico" type="image/x-icon">
+    <title>Tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        th,td {
+            border: 1px solid black;
+        }
+        th.esq {
+            text-align: left;
+        }
+        table {
+            width: 400px;
+            text-align: center;
+            border-collapse: collapse;
+        }
+        caption {
+            background-color: rgb(14, 13, 13);
+            color: white;
+            padding: 8px;
+        }
+        thead {
+            background-color: gray;
+        }
+       tbody tr.med {
+           background-color: gray;
+       }
+      
+
+       tfoot {
+           background-color: gray;
+           
+       }
+
+
+    </style>
+</head>
+<body>
+    <table>
+        <h1>Desafio Tabela</h1>
+        <caption><strong>Médias Notas</strong></caption>
+        <thead>
+            <tr>
+                <th rowspan="2">Área</th>
+                <th rowspan="2">Disciplinas</th>
+                <th colspan="2">Notas</th>
+                <th rowspan="2">Média</th>
+            </tr>
+            <tr>
+                <th>Nota 1</th>
+                <th>Nota 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3">Exatas</th>
+                <td>Matemática</td>
+                <td>9</td>
+                <td>7</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>Fisica</td>
+                <td>6</td>
+                <td>8</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>Bíologia</td>
+                <td>10</td>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+            <tr class="med">
+                <th class="esq" colspan="4" >Médias de Exatas</th>
+                <td>8</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Humanas</th>
+                <td>História</td>
+                <td>10</td>
+                <td>6</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td>10</td>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th class="esq" colspan="4">Médias de Humanas</th>
+            <td>8,5</td>
+        </tfoot>
+    </tablet
+</body>
+</html>
